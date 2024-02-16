@@ -1,0 +1,41 @@
+//متغییر ها
+$colorr:red;
+$colorw:#fff;
+$colorg:green;
+
+h1{
+    // color: $colorg;
+    
+}
+//nesting
+
+div{
+
+    background-color: $colorg;
+    ul{
+       list-style: none;
+    }
+
+    a{
+        color: $colorw;
+        text-decoration: none;
+    }
+
+    li{
+        border: 1px solid red;
+    }
+}
+
+
+//mixin 
+
+@mixin textstyle($color,$bgcolor,$padding){
+    background-color: $color;
+    color: $bgcolor;
+    padding: $padding;
+
+}
+
+h1{
+    @include textstyle(pink,#654fef,10px)
+}

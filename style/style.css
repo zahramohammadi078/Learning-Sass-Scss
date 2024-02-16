@@ -1,0 +1,19 @@
+div {
+  background-color: green;
+}
+div ul {
+  list-style: none;
+}
+div a {
+  color: #fff;
+  text-decoration: none;
+}
+div li {
+  border: 1px solid red;
+}
+
+h1 {
+  background-color: pink;
+  color: #654fef;
+  padding: 10px;
+}/*# sourceMappingURL=style.css.map */
