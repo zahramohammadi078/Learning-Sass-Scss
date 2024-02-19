@@ -14,6 +14,11 @@ div li {
 
 h1 {
   background-color: pink;
-  color: #654fef;
+  color: rgb(11, 11, 96);
   padding: 10px;
+}
+
+h2 {
+  color: navy;
+  background-color: orange;
 }/*# sourceMappingURL=style.css.map */

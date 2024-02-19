@@ -1,7 +1,4 @@
-//متغییر ها
-$colorr:red;
-$colorw:#fff;
-$colorg:green;
+@import "var";
 
 h1{
     // color: $colorg;
@@ -37,5 +34,13 @@ div{
 }
 
 h1{
-    @include textstyle(pink,#654fef,10px)
+    @include textstyle(pink,rgb(11, 11, 96),10px)
+}
+
+//import
+
+h2{
+    color:$colorn;
+    background-color: $coloro;
+    
 }
