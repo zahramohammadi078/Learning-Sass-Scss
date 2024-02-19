@@ -21,4 +21,37 @@ h1 {
 h2 {
   color: navy;
   background-color: orange;
+}
+h2:hover {
+  color: red;
+  cursor: pointer;
+}
+
+button {
+  background-color: pink;
+  color: navy;
+  border: 1px solid pink;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+button:hover {
+  background-color: navy;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: green;
+  color: orange;
+  border: 1px solid green;
+}
+.btn:hover {
+  background-color: navy;
+  border: none;
+  color: #fff;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

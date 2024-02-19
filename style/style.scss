@@ -1,5 +1,17 @@
 @import "var";
 
+@mixin hover{
+
+    &:hover{
+
+        background-color: $colorn;
+        border: none;
+        color: $colorw;
+        cursor: pointer;
+    }
+
+}
+
 h1{
     // color: $colorg;
     
@@ -37,10 +49,37 @@ h1{
     @include textstyle(pink,rgb(11, 11, 96),10px)
 }
 
-//import
+//import & pseudo class & content
 
 h2{
     color:$colorn;
     background-color: $coloro;
-    
+
+    &:hover{
+        color: $colorr;
+        cursor: pointer;
+    }
 }
+
+button{
+    background-color: pink;
+    color: $colorn;
+    border: 1px solid pink;
+    border-radius:3px ;
+    -webkit-border-radius:3px ;
+    -moz-border-radius:3px ;
+    -ms-border-radius:3px ;
+    -o-border-radius:3px ;
+
+    @include hover();
+}
+
+.btn{
+    background-color: $colorg;
+    color: $coloro;
+    border: 1px solid $colorg;
+    @include hover();
+
+}
+
+
