@@ -82,4 +82,44 @@ button{
 
 }
 
+@mixin demo($widthtest){
+
+    @media (max-width:$widthtest){
+
+        @content;
+    }
+
+}
+
+.text1{
+    @include demo(900px){
+        color: $coloro;
+        font-size:20px;
+    }
+}
+
+// if & for & each 
+
+@mixin testi{
+
+    // @if($width == 400){
+
+    //     @media(max-width:400px)
+    //     @content;
+    
+    // }@else{
+    
+    // }
+    @content;
+}
+
+
+.text{
+    @include testi{
+        font-size: 20px;
+        color: $coloro;
+    }
+}
+
+
 

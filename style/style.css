@@ -54,4 +54,16 @@ button:hover {
   border: none;
   color: #fff;
   cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .text1 {
+    color: orange;
+    font-size: 20px;
+  }
+}
+
+.text {
+  font-size: 20px;
+  color: orange;
 }/*# sourceMappingURL=style.css.map */
